@@ -81,8 +81,8 @@ This project calculates employee bonuses and total compensation based on predefi
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/Nithyabala2004/task-2.git>
-   cd <task-2>
+   git clone https://github.com/Nithyabala2004/task-2.git
+   cd task-2
    ```
 
 2. Install dependencies (if required):
