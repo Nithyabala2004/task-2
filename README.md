@@ -81,8 +81,8 @@ This project calculates employee bonuses and total compensation based on predefi
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone <https://github.com/Nithyabala2004/task-2.git>
+   cd <task-2>
    ```
 
 2. Install dependencies (if required):
@@ -135,36 +135,10 @@ const department = "Engineering";
 
 
 
-## File Structure
-
-```
-/project-directory
-├── app.js          # Main entry point for the application
-├── data.js         # Contains employee list and department rules
-├── utils.js        # Helper functions for data processing
-├── README.md       # Documentation for the project
-└── package.json    # Project metadata and dependencies (if applicable)
-```
 
 
 
-## How It Works
 
-1. **Initialization**  
-   - Define an array of employee objects with details such as `id`, `name`, `department`, `salary`, `bonusPercentage`, etc.
-   - Specify department-specific bonus rules.
-
-2. **Data Processing**  
-   - **RemoveDuplicates**: Use a `Set` to ensure unique employee entries based on `id`.
-   - **FilterEmployees**: Filter the list of employees based on the selected department.
-   - **CalculateBonusAndCompensation**: Use conditional logic to compute bonuses and total compensation.
-
-3. **Report Generation**  
-   - Group the employees by department.
-   - Format the report to include `name`, `department`, `salary`, `bonus`, and `totalCompensation`.
-
-4. **Output**  
-   - Return the grouped report and the updated employee list.
 
 
 
